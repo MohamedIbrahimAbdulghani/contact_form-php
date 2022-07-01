@@ -1,0 +1,60 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(45 45 158 / 30%)
+}
+.contact-form {
+    max-width: 500px;
+    margin: 10px auto;
+}
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: -3px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contact-form textarea {
+    height: 200px;
+    padding-right: 50px;
+}
+.contact-form input {
+    padding-left: 35px;
+    padding-right: 50px;
+}
+.contact-form input:not([type="submit"]) + i {
+    height: 0;
+    float: left;
+    color: #999;
+    position: relative;
+    top: -27px;
+    left: 10px;
+}
+.contact-form .mb-3 {
+    position: relative;
+}
+.contact-form .mb-3 span.istraxs {
+    font-size: 35px;
+    color: #b90d0d;
+    right: 10px;
+    height: 0;
+    position: absolute;
+    top: 1px;
+}
+.contact-form .send {
+    top: -26px;
+    color: white;
+    left: 10px;
+    display: block;
+    position: relative;
+}
+.contact-form .custom-alert {
+    padding: 5px 10px;
+    margin-top: 15px;
+    display: none;
+}
+.contact-form .btn {
+    padding-left: 35px;
+}
